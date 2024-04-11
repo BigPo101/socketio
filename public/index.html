@@ -1,1 +1,18 @@
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>One Night</title>
+    <script src="index.js"></script>
+    <link id="style" rel="stylesheet" href="styles/index.css">
+  </head>
+  <body>
+    <div class="index">
+      <button class="hostRoom" onclick="hostRoom()">Create a room!</button>
+      <form class="joinForm" onsubmit="joinRoom(event)">
+        <label class="joinLabel" for="code">Enter code:</label><br>
+        <input class="joinInput" id="code" type="text" required><br>
+        <input class="joinSubmit" type="submit" value="Join">
+      </form>
+    </div>
+  </body>
+</html>

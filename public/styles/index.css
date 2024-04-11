@@ -1,0 +1,63 @@
+
+@import url('fonts.css');
+body {
+  background-image: radial-gradient(circle, #000000, #101010);
+}
+.index {
+  position: absolute;
+  top: 15%;
+  left: 35%;
+  width: 30%;
+  height: 70%;
+}
+.hostRoom {
+  font-size: 150%;
+  border-radius: 30px;
+  background-color: #151515;
+  color: #FFFFFF;
+  position: relative;
+  width: 70%;
+  height: 10%;
+  top: 10%;
+  left: 15%;
+  border: none;
+  font-family: 'wolf';
+}
+.joinForm {
+  height: 100%;
+}
+.joinLabel {
+  position: relative;
+  left: 8%;
+  top: 55%;
+  font-size: 150%;
+  color: #FFFFFF;
+  font-family: 'wolf';
+}
+.joinInput {
+  font-size: 150%;
+  border-radius: 30px;
+  background-color: #151515;
+  color: #FFFFFF;
+  position: relative;
+  width: 90%;
+  height: 10%;
+  top: 60%;
+  left: 5%;
+  border: none;
+  text-align: center;
+  font-family: 'wolf';
+}
+.joinSubmit {
+  font-size: 150%;
+  border-radius: 30px;
+  background-color: #151515;
+  color: #FFFFFF;
+  position: relative;
+  width: 70%;
+  height: 10%;
+  top: 65%;
+  left: 15%;
+  border: none;
+  font-family: 'wolf';
+}

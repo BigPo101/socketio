@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'wolfSP';
+    src: url('../fonts/Sectar_SP.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'wolf';
+    src: url('../fonts/Sectar.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
